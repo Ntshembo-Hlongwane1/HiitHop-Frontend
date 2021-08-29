@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/HiitHop-Frontend/static/css/main.da3774a8.chunk.css",
+    "main.js": "/HiitHop-Frontend/static/js/main.51fda8a9.chunk.js",
+    "main.js.map": "/HiitHop-Frontend/static/js/main.51fda8a9.chunk.js.map",
+    "runtime-main.js": "/HiitHop-Frontend/static/js/runtime-main.13960100.js",
+    "runtime-main.js.map": "/HiitHop-Frontend/static/js/runtime-main.13960100.js.map",
+    "static/css/2.450bcdb5.chunk.css": "/HiitHop-Frontend/static/css/2.450bcdb5.chunk.css",
+    "static/js/2.ad228360.chunk.js": "/HiitHop-Frontend/static/js/2.ad228360.chunk.js",
+    "static/js/2.ad228360.chunk.js.map": "/HiitHop-Frontend/static/js/2.ad228360.chunk.js.map",
+    "index.html": "/HiitHop-Frontend/index.html",
+    "static/css/2.450bcdb5.chunk.css.map": "/HiitHop-Frontend/static/css/2.450bcdb5.chunk.css.map",
+    "static/css/main.da3774a8.chunk.css.map": "/HiitHop-Frontend/static/css/main.da3774a8.chunk.css.map",
+    "static/js/2.ad228360.chunk.js.LICENSE.txt": "/HiitHop-Frontend/static/js/2.ad228360.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.13960100.js",
+    "static/css/2.450bcdb5.chunk.css",
+    "static/js/2.ad228360.chunk.js",
+    "static/css/main.da3774a8.chunk.css",
+    "static/js/main.51fda8a9.chunk.js"
+  ]
+}
