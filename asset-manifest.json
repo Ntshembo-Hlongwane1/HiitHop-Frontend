@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/HiitHop-Frontend/static/css/main.eea55379.chunk.css",
-    "main.js": "/HiitHop-Frontend/static/js/main.fae08be0.chunk.js",
-    "main.js.map": "/HiitHop-Frontend/static/js/main.fae08be0.chunk.js.map",
+    "main.js": "/HiitHop-Frontend/static/js/main.0eab035f.chunk.js",
+    "main.js.map": "/HiitHop-Frontend/static/js/main.0eab035f.chunk.js.map",
     "runtime-main.js": "/HiitHop-Frontend/static/js/runtime-main.13960100.js",
     "runtime-main.js.map": "/HiitHop-Frontend/static/js/runtime-main.13960100.js.map",
     "static/css/2.450bcdb5.chunk.css": "/HiitHop-Frontend/static/css/2.450bcdb5.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.450bcdb5.chunk.css",
     "static/js/2.1f6ed7aa.chunk.js",
     "static/css/main.eea55379.chunk.css",
-    "static/js/main.fae08be0.chunk.js"
+    "static/js/main.0eab035f.chunk.js"
   ]
 }
