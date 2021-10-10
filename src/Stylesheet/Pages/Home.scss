@@ -1,0 +1,52 @@
+@import '../Base/variables';
+
+#main{
+  padding: 1rem;
+}
+
+#services__header{
+  text-align: center;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+#service__info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+
+  #service-image{
+    width: 400px;
+  }
+}
+
+#main__be-member{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+#member-secondary-text{
+  width: 60%;
+}
+
+#btn-become-member{
+  padding: .8rem 1rem;
+  background-color: $secondary-font-color;
+  color: $container-color;
+  border: none;
+  cursor: pointer;
+
+  &:hover{
+    transform: translateY(-3px);
+  }
+  &:active{
+    transform: translateY(-1px);
+  }
+}

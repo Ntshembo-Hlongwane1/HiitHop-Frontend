@@ -1,0 +1,40 @@
+@import '../Base/variables';
+
+#instructor__container{
+  padding: 1rem;
+  margin: 5rem 0rem;
+
+  #instructor__mainContent{
+    margin: 2rem 0rem;
+
+    & > h3{
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: 3rem;
+      font-size: 3rem;
+      letter-spacing: 3px;
+    }
+
+    #mainContent__header{
+      color: $main-font-color;
+    }
+
+    #mainContent__subHeader{
+      color: $secondary-font-color;
+    }
+  }
+
+  .sub_container{
+    margin-top: 3rem;
+  }
+}
+
+
+@media screen and(min-width:320px) and (max-width:670px) {
+  #instructor__mainContent{
+    &>h3{
+      letter-spacing: 0px !important;
+      font-size: 1rem !important;
+    }
+  }
+}

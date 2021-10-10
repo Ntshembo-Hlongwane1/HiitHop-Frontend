@@ -1,0 +1,46 @@
+#membercard-container{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .member-card{
+        box-shadow: 2px -1px 7px 0px rgba(0,0,0,0.6);
+        -webkit-box-shadow: 2px -1px 7px 0px rgba(0,0,0,0.6);
+        -moz-box-shadow: 2px -1px 7px 0px rgba(0,0,0,0.6);
+        padding: 3rem; 
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        
+        .member-card-prices > button{
+            padding: .7rem 1rem;
+            background-color: red;
+            color:white;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+
+            &:hover{
+                transform: translateY(-3px);
+            }
+
+            &:active{
+                transform: translateY(-1px);
+            }
+        }
+
+        .member-card-prices > select{
+            padding: .7rem 1rem;
+            margin-left: 10px;
+        }
+    }
+}
+
+.card-benefits-info{
+    display: flex;      
+    align-items: center;
+
+    & > p{
+        margin-left: 10px;
+    }
+}

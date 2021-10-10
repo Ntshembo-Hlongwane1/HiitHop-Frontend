@@ -1,0 +1,35 @@
+@import "../Base/variables";
+
+#about {
+  padding: 1rem;
+
+  #about__headerText {
+    text-align: center;
+    margin: 3rem 0rem;
+    text-transform: uppercase;
+    font-size: 2rem;
+  }
+
+  #about__headerTextSecondary {
+    color: $secondary-font-color;
+  }
+
+  #about__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    #about__text {
+      width: 50%;
+    }
+  }
+}
+
+@media screen and (min-width: 350px) and (max-width: 859px) {
+  #about__container > :first-child > img {
+    display: none;
+  }
+  #about__text {
+    width: 100% !important;
+  }
+}

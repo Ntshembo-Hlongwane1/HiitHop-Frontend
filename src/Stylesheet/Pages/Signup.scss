@@ -1,0 +1,47 @@
+#áuth__header{
+  text-align: center;
+  margin-top: 10rem;
+}
+
+#auth{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0% auto;
+  margin-top: 3rem;
+
+  & > input{
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    padding: .4rem 1rem;
+
+    &:focus{
+      outline: none;
+    }
+  }
+
+  & > button{
+    padding: .5rem 1rem;
+    width: 40%;
+    // margin: 0% auto;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+
+    &:hover{
+      transform: translateY(-3px);
+    }
+    &:active{
+      transform: translateY(-1px);
+    }
+  }
+
+  & > p{
+    color: blue;
+    border-bottom:  1px solid blue;
+    width: fit-content;
+    cursor: pointer;
+  }
+}
