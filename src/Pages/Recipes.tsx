@@ -29,7 +29,7 @@ const Recipes = () => {
 
     const base1 = {
       dev: "http://localhost:5000/api/recipe",
-      prod: "https://hiithop-server.herokuapp.com/api/recipes",
+      prod: "https://hiithop-server.herokuapp.com/api/recipe",
     };
     const url1 = process.env.NODE_ENV === "production" ? base1.prod : base1.dev;
 
