@@ -2,8 +2,14 @@ import Banner from "../Components/Banner.component";
 import Footer from "../Components/Footer.component";
 import Navigation from "../Components/Navigation.component";
 import "../Stylesheet/Pages/Home.scss";
+import { useHistory } from "react-router-dom";
 
 const Home = () => {
+  const history = useHistory();
+
+  const redirect = () => {
+    history.push("/membership");
+  };
   return (
     <div>
       <Navigation />
@@ -39,7 +45,9 @@ const Home = () => {
                 style of workout
               </p>
             </div>
-            <button id="btn-become-member">Be A Member</button>
+            <button onClick={redirect} id="btn-become-member">
+              Be A Member
+            </button>
           </div>
         </div>
       </main>
