@@ -51,16 +51,16 @@ const Navigation = () => {
           About
         </p>
         <p onClick={() => route("/workout-videos")} className="nav__right-link">
-          Workout Videos
+          Videos
         </p>
         <p onClick={() => route("/instructors")} className="nav__right-link">
-          Insructor Training
+          Insructor
         </p>
         <p onClick={() => route("/membership")} className="nav__right-link">
           Membership
         </p>
         <p onClick={() => route("/contact")} className="nav__right-link">
-          Contact Us
+          Contact
         </p>
         {token === "" || token === null ? null : (
           <p onClick={() => route("/playlist")} className="nav__right-link">

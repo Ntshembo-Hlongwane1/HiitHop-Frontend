@@ -1,6 +1,6 @@
-@import '../Base/variables';
+@import "../Base/variables";
 
-#nav{
+#nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,50 +9,50 @@
   z-index: 999;
   background-color: $container-color;
 
-  #nav__left{
+  #nav__left {
     width: 20%;
     padding: 1rem;
 
-    #nav__logo{
+    #nav__logo {
       width: 100%;
     }
   }
-
-  .nav__right-link{
-    padding: 1rem;
-    display: none;
+  #nav__right {
+    .nav__right-link {
+      padding: 1rem;
+      display: none;
+    }
   }
 
-  .nav__right-menu-icon{
+  .nav__right-menu-icon {
     font-size: 5rem;
   }
 }
 
 @media screen and(min-width:1024px) {
-  .nav__right-menu-icon{
+  .nav__right-menu-icon {
     font-size: 10rem !important;
   }
 }
 
-@media screen and (min-width:1200px) {
-  .nav__right-menu-icon{
+@media screen and (min-width: 1200px) {
+  .nav__right-menu-icon {
     display: none !important;
   }
 
-  #nav__left{
+  #nav__left {
     width: 5% !important;
   }
 
-  #nav__right{
+  #nav__right {
     display: flex;
     align-items: center;
-
-    .nav__right-link{
+    .nav__right-link {
       display: flex !important;
-      font-size: 1.2rem;
+      font-size: 1rem;
       cursor: pointer;
 
-      &:hover{
+      &:hover {
         border-bottom: 1px solid black;
       }
     }
