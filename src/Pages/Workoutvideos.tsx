@@ -16,6 +16,7 @@ const Workoutvideos = () => {
   const history = useHistory();
   const [videos, setVideos] = React.useState<Array<Video>>([]);
   const [category, setCategory] = React.useState<string>("None");
+  const [categories, setCategories] = React.useState<any>([]);
   React.useEffect(() => {
     const token = localStorage.getItem("token");
     // setToken(token)
@@ -34,6 +35,13 @@ const Workoutvideos = () => {
       .then((response) => {
         setVideos(response.data.videos);
         console.log(response.data);
+        let v_categories: any = [];
+        response.data.videos.forEach((video: any, idx: number) => {
+          if (!v_categories.includes(video.category)) {
+            v_categories.push(video.category);
+          }
+        });
+        setCategories(v_categories);
       })
       .catch((error) => {
         history.push("/membership");
@@ -75,10 +83,10 @@ const Workoutvideos = () => {
         id="filter"
       >
         <option value={"None"}>None</option>
-        {videos.map((video, idx) => {
+        {categories.map((v_category: any, idx: number) => {
           return (
-            <option key={idx} value={video.category}>
-              {video.category}
+            <option key={idx} value={v_category}>
+              {v_category}
             </option>
           );
         })}
